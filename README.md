@@ -4,6 +4,8 @@ This is a multi-agent workflow prototype for Chinese content quality optimizatio
 
 The project focuses on helping Chinese content creators improve AI-generated drafts by diagnosing and reducing common "AI flavor" issues, such as mechanical structure, repetitive paragraph rhythm, vague expression, over-explaining, and platform style mismatch.
 
+The repository is maintained as a documentation-first prototype for MiMo Token plan application review. It does not include production credentials, private data, API keys, or live service configuration.
+
 ## Core Scenarios
 
 - WeChat public account article polishing
@@ -29,9 +31,25 @@ The project focuses on helping Chinese content creators improve AI-generated dra
 5. **Coordinator Agent**  
    Integrates multi-step outputs and produces the final optimized version.
 
+## Project Structure
+
+```text
+docs/
+  project-overview.md     Project background, users, pain points, and scenarios
+  workflow.md             Multi-agent workflow design
+  evaluation-plan.md      Prototype evaluation metrics and test plan
+prompts/
+  diagnosis-agent.md      Prompt framework for AI-flavor diagnosis
+  rewrite-agent.md        Prompt framework for naturalized rewriting
+samples/
+  sample-input.md         Example Chinese draft with strong AI flavor
+  sample-output.md        Example diagnosis and improved version
+README.md                 Repository summary
+```
+
 ## Current Status
 
-The project is currently in the prototype validation stage.
+The project is currently in the **prototype validation stage / 原型验证阶段**.
 
 Current progress includes:
 
